@@ -1,0 +1,10 @@
+image,output 0,output 1,timestamp
+.gradio\flagged\image\32f69ff3305c9833344d\Injury Image 1.png,"'
+Injury Width (pixels): 214
+Injury Height (pixels): 200
+Approx Area (pixels): 42800
+
+Average Red Value: 154.63
+Average Green Value: 128.32
+Average Blue Value: 82.19
+",.gradio\flagged\output 1\f444cd71083331216fdc\image.webp,2025-11-19 22:15:39.620737
