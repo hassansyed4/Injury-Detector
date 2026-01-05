@@ -1,4 +1,4 @@
-1) Injury Detector (Localhost Prototype)
+##1) Injury Detector (Localhost Prototype)
 
 A simple **Gradio + Transformers** prototype that runs on **localhost**.  
 Upload an image of a wound/injury and the app will:
@@ -34,16 +34,16 @@ Upload an image of a wound/injury and the app will:
 
 ---
 
-2) Install dependencies
+##2) Install dependencies
 ```bash
 pip install --upgrade pip
 pip install gradio opencv-python numpy pillow torch transformers
 ```
 
-3) Save your code
+##3) Save your code
 Create a file named app.py and paste your code into it.
 
-4) Run the code
+##4) Run the code
 ```bash
 python app.py
 ```
