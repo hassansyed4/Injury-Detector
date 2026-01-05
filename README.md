@@ -1,11 +1,11 @@
-##1) Injury Detector (Localhost Prototype)
+## 1) Injury Detector (Localhost Prototype)
 
 A simple **Gradio + Transformers** prototype that runs on **localhost**.  
 Upload an image of a wound/injury and the app will:
 
 - Detect the main injury/object region using **DETR panoptic segmentation**
 - Draw a bounding box around the detected region
-- Estimate width/height/depth/area (rough estimates)
+- Es timate width/height/depth/area (rough estimates)
 - Calculate average RGB color values in the detected region
 
 > Note: This is a prototype and **not a medical tool**. Measurements are approximate and depend heavily on image distance, lighting, and camera resolution.
@@ -34,16 +34,16 @@ Upload an image of a wound/injury and the app will:
 
 ---
 
-##2) Install dependencies
+## 2) Install dependencies
 ```bash
 pip install --upgrade pip
 pip install gradio opencv-python numpy pillow torch transformers
 ```
 
-##3) Save your code
+## 3) Save your code
 Create a file named app.py and paste your code into it.
 
-##4) Run the code
+## 4) Run the code
 ```bash
 python app.py
 ```
